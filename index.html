@@ -22,7 +22,7 @@
 			<div style="float: right">
 				<div class="btn-group dropleft">
 					<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<div class="dropdown-menu">
 						<a class="dropdown-item disabled" href="#">English</a>
 						<a class="dropdown-item" href="/ko">한국어</a>
 						<a class="dropdown-item" href="/ja">日本語</a>
@@ -31,10 +31,72 @@
 			</div>
 			<h1 class="display-3">Wanseong</h1>
 			Picked Hangul Syllables.<hr>
-			<span style="font-size: 2em">Total characters: </span><strong><span class="counter" style="font-family: countnumber; font-size: 3em;">2,585</span></strong>
+			<span style="font-size: 2em">Total characters now: </span><strong><span class="counter" style="font-family: countnumber; font-size: 3em;">2,585</span></strong>
 			<div style="float: right">
-				<button type="button" class="btn btn-primary">Download</button>
-				<button type="button" class="btn btn-warning">Request Characters</button>
+				<div class="btn-group">
+					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">KS X 1001 (2,350 characters)</a>
+						<a class="dropdown-item" href="#">Wanseong (2,585 characters)</a>
+						<a class="dropdown-item" href="#">Unicode (11,172 characters)</a>
+					</div>
+				</div>
+				<div class="btn-group">
+					<button type="button" class="btn btn-warning">Request Characters</button>
+				</div>
+			</div><br>
+			<div class="btn-group" role="group" aria-label="Basic example">
+				<button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#ac00">가</button>
+				<button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#ac01">각</button>
+				<button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#ac04">간</button>
+			</div>
+			<div class="modal fade" id="ac00" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">가, U+AC00</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						</div>
+						<div class="modal-body">
+							Supported on KS X 1001.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="ac01" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">각, U+AC01</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						</div>
+						<div class="modal-body">
+							Supported on KS X 1001.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal fade" id="ac04" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle">간, U+AC04</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						</div>
+						<div class="modal-body">
+							Supported on KS X 1001.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
