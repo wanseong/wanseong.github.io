@@ -5,6 +5,22 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+@font-face {
+    font-family: countnumber;
+    src: url(/fonts/countnumber.eot);
+    src: url(/fonts/countnumber.eot?#iefix) format('embedded-opentype'),
+		 url(/fonts/countnumber.woff2) format('woff2'),
+         url(/fonts/countnumber.woff) format('woff'),
+         url(/fonts/countnumber.ttf) format('truetype'),
+         url(/fonts/countnumber.svg#countnumber) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.countnumber {
+	font-family: countnumber;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
