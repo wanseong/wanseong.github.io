@@ -9,7 +9,7 @@
     font-family: countnumber;
     src: url(/fonts/countnumber.eot);
     src: url(/fonts/countnumber.eot?#iefix) format('embedded-opentype'),
-	 url(/fonts/countnumber.woff2) format('woff2'),
+		 url(/fonts/countnumber.woff2) format('woff2'),
          url(/fonts/countnumber.woff) format('woff'),
          url(/fonts/countnumber.ttf) format('truetype'),
          url(/fonts/countnumber.svg#countnumber) format('svg');
@@ -18,7 +18,7 @@
 }
 
 .countnumber {
-    font-family: countnumber;
+	font-family: countnumber;
 }
 
 :root {
@@ -3330,6 +3330,7 @@ tbody.collapse.show {
   display: -ms-inline-flexbox;
   display: inline-flex;
   vertical-align: middle;
+  margin-bottom: 5px;
 }
 
 .btn-group > .btn,
