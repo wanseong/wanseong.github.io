@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<title>Wanseong</title>
 		<meta name="description" content="Picked Hangul Syllables.">
 		<meta name="keywords" content="Hangul, Syllables, 한글, 완성형">
 		<meta name="author" content="Quiple">
-		<link rel="stylesheet" type="text/css" href="css/countnumber.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script>
 			jQuery(document).ready(function( $ ) {
 				$('.counter').counterUp({
@@ -21,25 +20,27 @@
 	<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 		<div class="container-fluid"><p></p>
 			<div style="float: right">
-				<div class="dropdown">
-					<button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
-					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">English</a>
-						<a class="dropdown-item" href="#">한국어 (Korean)</a>
-						<a class="dropdown-item" href="#">日本語 (Japanese)</a>
+				<div class="btn-group dropleft">
+					<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item disabled" href="#">English</a>
+						<a class="dropdown-item" href="/ko">한국어</a>
+						<a class="dropdown-item" href="/ja">日本語</a>
 					</div>
 				</div>
 			</div>
 			<h1>Wanseong</h1>
 			Picked Hangul Syllables.<hr>
-			Total characters: <strong><span class="counter" style="font-family: 'countnumber';">2,585</span></strong>
+			Total characters: <span class="counter" style="font-family: countnumber;">2,585</span>
 			<div style="float: right">
 				<button type="button" class="btn btn-primary">Download</button>
 				<button type="button" class="btn btn-warning">Request Characters</button>
 			</div>
 		</div>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 		<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</body>
 </html>
