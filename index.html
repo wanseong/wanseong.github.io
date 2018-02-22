@@ -7,7 +7,7 @@
 		<meta name="keywords" content="Hangul, Syllables, 한글, 완성형">
 		<meta name="author" content="Quiple">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap4.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.16/r-2.2.1/datatables.min.css"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script>
 			jQuery(document).ready(function( $ ) {
@@ -15,6 +15,9 @@
 					delay: 10,
 					time: 1000
 				});
+				$(document).ready( function () {
+				$('#dtable').DataTable();
+				} );
 			});
 		</script>
 	</head>
@@ -46,15 +49,15 @@
 					<button type="button" class="btn btn-warning">Request Characters</button>
 				</div>
 			</div><br>
-			<table id="dtable" class="table table-striped table-bordered" cellspacing="0" width="100%">
-				<thead>
-					<tr>
-						<th>Name</th>
-						<th>Unicode</th>
-						<th>Source</th>
-					</tr>
-				</thead>
-				<tbody>
+						<table id="dtable" class="table table-striped table-bordered" cellspacing="0" width="100%">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Unicode</th>
+									<th>Source</th>
+								</tr>
+							</thead>
+							<tbody>
 <tr><td>가</td><td>U+AC00</td><td>KS X 1001</td></tr>
 <tr><td>각</td><td>U+AC01</td><td>KS X 1001</td></tr>
 <tr><td>간</td><td>U+AC04</td><td>KS X 1001</td></tr>
@@ -2730,14 +2733,15 @@
 <tr><td>힛</td><td>U+D79B</td><td>KS X 1001</td></tr>
 <tr><td>힝</td><td>U+D79D</td><td>KS X 1001</td></tr>
 <tr><td>힣</td><td>U+D7A3</td><td><a href="http://koreantypography.org/blog/archives/4615" target="_blank">Proposal for Additional Korean Characters in Complete Code System of Hangul</a> by Noh Minji, Yoon Mingoo (Ahn Graphics Typography Lab, Korea)</td></tr>
-				</tbody>
-			</table>
+							</tbody>
+						</table>
 		</div>
-		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-		<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-		<script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
+		
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 		<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+		
+		<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.16/r-2.2.1/datatables.min.js"></script>
+		
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
