@@ -3313,6 +3313,7 @@ tbody.collapse.show {
   display: -ms-inline-flexbox;
   display: inline-flex;
   vertical-align: middle;
+  margin-bottom: 5px;
 }
 
 .btn-group > .btn,
