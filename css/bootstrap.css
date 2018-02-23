@@ -4,23 +4,6 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
-@font-face {
-    font-family: countnumber;
-    src: url(/fonts/countnumber.eot);
-    src: url(/fonts/countnumber.eot?#iefix) format('embedded-opentype'),
-	 url(/fonts/countnumber.woff2) format('woff2'),
-         url(/fonts/countnumber.woff) format('woff'),
-         url(/fonts/countnumber.ttf) format('truetype'),
-         url(/fonts/countnumber.svg#countnumber) format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-
-.countnumber {
-    font-family: countnumber;
-}
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -3330,7 +3313,6 @@ tbody.collapse.show {
   display: -ms-inline-flexbox;
   display: inline-flex;
   vertical-align: middle;
-  margin-bottom: 5px;
 }
 
 .btn-group > .btn,

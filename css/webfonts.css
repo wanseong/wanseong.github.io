@@ -1,0 +1,31 @@
+@font-face {
+    font-family: countnumber;
+    src: url(/fonts/countnumber.eot);
+    src: url(/fonts/countnumber.eot?#iefix) format('embedded-opentype'),
+		 url(/fonts/countnumber.woff2) format('woff2'),
+         url(/fonts/countnumber.woff) format('woff'),
+         url(/fonts/countnumber.ttf) format('truetype'),
+         url(/fonts/countnumber.svg#countnumber) format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.countnumber {
+	font-family: countnumber;
+}
+
+@font-face {
+    font-family: wanseongtitle;
+    src: url(/fonts/wanseongtitle.eot);
+    src: url(/fonts/wanseongtitle.eot?#iefix) format('embedded-opentype'),
+		 url(/fonts/wanseongtitle.woff2) format('woff2'),
+         url(/fonts/wanseongtitle.woff) format('woff'),
+         url(/fonts/wanseongtitle.ttf) format('truetype'),
+         url(/fonts/wanseongtitle.svg#wanseongtitle) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wanseongtitle {
+	font-family: wanseongtitle;
+}
