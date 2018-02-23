@@ -13,7 +13,13 @@
 		<script>
 			jQuery(document).ready(function( $ ) {
 				$(document).ready( function () {
-				$('#dtable').DataTable();
+					$('#dtable').DataTable( {
+						"columnDefs": [
+							{ "width": 50, "targets": 0 },
+							{ "width": 50, "targets": 1 }
+						],
+						fixedColumns: true
+					} );
 				} );
 			});
 		</script>

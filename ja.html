@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Wanseong</title>
-		<meta name="description" content="Picked Hangul Syllables.">
+		<meta name="description" content="取り出したハングル音節文字。">
 		<meta name="keywords" content="Hangul, Syllables, 한글, 완성형">
 		<meta name="author" content="Quiple">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -13,7 +13,13 @@
 		<script>
 			jQuery(document).ready(function( $ ) {
 				$(document).ready( function () {
-				$('#dtable').DataTable();
+					$('#dtable').DataTable( {
+						"columnDefs": [
+							{ "width": 50, "targets": 0 },
+							{ "width": 50, "targets": 1 }
+						],
+						fixedColumns: true
+					} );
 				} );
 			});
 		</script>
