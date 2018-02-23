@@ -11,18 +11,13 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script>
 			jQuery(document).ready(function( $ ) {
-				$('.counter').counterUp({
-					delay: 10,
-					time: 1000
-				});
-				
 				$(document).ready( function () {
 				$('#dtable').DataTable();
 				} );
 			});
 		</script>
 	</head>
-	<body ng-controller="AppController" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+	<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 		<div class="container"><p></p>
 			<div style="float: right">
 				<div class="btn-group dropleft">
@@ -36,7 +31,7 @@
 			</div>
 			<h1 class="display-3">Wanseong</h1>
 			Picked Hangul Syllables by Quiple.<hr>
-			<span style="font-size: 2em">Total characters now: </span><strong><span class="counter" style="font-family: countnumber; font-size: 3em;">2,675</span></strong>
+			<span style="font-size: 2em">Total characters now: </span><strong><span style="font-family: countnumber; font-size: 3em;">2,675</span></strong>
 			<div style="float: right">
 				<div class="btn-group">
 					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download</button>
@@ -2737,9 +2732,6 @@
 				</tbody>
 			</table>
 		</div>
-		
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-		<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
 		
 		<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.16/r-2.2.1/datatables.min.js"></script>
 		
