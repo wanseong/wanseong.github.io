@@ -7,4 +7,4 @@ Using 11,172 characters when you make fonts, make games, or otherwise need to ou
 
 Therefore, I would like to add the required Hangul characters based on 2,350 characters of KS X 1001. If you have Hangul characters that need to add, click the ‘<strong>REQUEST CHARACTERS</strong> (on the website)’, and let me know the Hangul characters that need to add and reasons to add or sources.
 
-Copyright © 2018 Quiple. All rights reserved.
+Planned by Quiple.
